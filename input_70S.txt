@@ -1,0 +1,10 @@
+# nmol, number of mol
+1 
+# di, de, ion concentration(mM), temperature
+2.0  80.  150  300.0 
+# meshfmt: 0 icosohedron, 1 raw, 2 msms, 3 matlab sphere, 4 mc, 5 off
+5
+#output key: ipotw(surf pot),iforce,iinterE,iselfE (solvation),ipotdx(vol pot)
+1 0 0 1  0 
+# pqr and mesh files (repeat nmol lines for multi-molecules)
+70S_ribosome3.7A_model140_ModR.pqr 70S_ribosome3.7A_model140_ModR.pqr0.62.0.off
